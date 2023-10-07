@@ -4,7 +4,7 @@ from . import views
 app_name = 'rizz'
 
 urlpatterns = [
-    path('api/get/', views.getData),
-    path('api/add', views.addData),
-    path('add/', views.add_rizz, name='add')
+    path('rizz/api/get/', views.getData),
+    path('rizz/api/add/', views.addData),
+    path('rizz/add/', views.add_rizz, name='add')
 ]
